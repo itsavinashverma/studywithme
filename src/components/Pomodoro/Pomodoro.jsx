@@ -32,7 +32,7 @@ const Pomodoro = () => {
     if (isRunning) {
       document.title = `(${formatTime(timeLeft)})`;
     } else {
-      document.title = 'Avinash';
+      document.title = 'Study with Avinash';
     }
   }, [timeLeft, isRunning, mode]);
   
